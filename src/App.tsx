@@ -1,5 +1,7 @@
+import GameWrapper from "./components/game";
+
 function App() {
-  return <div className="text-5xl">This is entry point</div>;
+  return <GameWrapper />;
 }
 
 export default App;
